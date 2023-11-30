@@ -5,4 +5,3 @@ if piece < 1 or piece == 1 :
     print("Pile !")
 else :
     print("Face !")
-print(f"{piece}")
