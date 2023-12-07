@@ -16,7 +16,7 @@ while True:
     else:
         break
 for i in range(debut,fin):
-    if i>7 and i<17:
+    if i>=7 and i<17:
         h2+=1
     else:
         h1+=1
