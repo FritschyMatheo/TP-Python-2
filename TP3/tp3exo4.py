@@ -9,6 +9,7 @@ if b==1:                                                                        
     n=int(input("Entrer le nombre dont on veut déterminer la factorielle: "))
     for i in range(1, n+1):
         f=f*i
+        print(f"{f}")
     print(f"La factorielle de {n} est {f} !")
 
 else:                                                                                                           #Boucle While
@@ -19,4 +20,5 @@ else:                                                                           
     while t < n+1:
         f=f*t
         t+=1
+        print(f"{f}")
     print(f"La factorielle de {n} est {f} !")
