@@ -7,4 +7,4 @@ hr=int(min/60)
 heures=hr%24
 jr=int(hr/24)
 jours=jr
-print(minutes, "minutes d'un mois représentent la date du" ,jours, "et l'heure : ",heures,":",minutes)
+print(min, "minutes d'un mois représentent la date du" ,jours, "et l'heure : ",heures,":",minutes)
